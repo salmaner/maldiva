@@ -4,40 +4,48 @@
 <head>
     <meta charset="utf-8">
     <title>IndexWork</title>
+    <style>
+    h2 {
+        color: #0000ff;
+    }
+    </style>
 </head>
 
 <body>
     <header id="header" class="">
-        Страница запуска Work проекта
+        <h2>Страница запуска Work проекта</h2>
     </header>
     <!-- /header -->
     <p>
-        <br>Пожайлуста введите свои данные
-        <br>для формирование записи с добав-
-        <br>лением их локальную базу данных
-        <br>'GOROJANE'
+        <br>Пожайлуста введите свои данные для формирование записи
+        <br>с добавлением их локальную базу данных " GOROJANE "!
         <br>
     </p>
-
-    <p>
-        <br> <input id="nam" value=""> Имя</input>
-        <br> <input id="fam"> Фамилия</input>
-        <br> <input id="gen"> пол</input>
-        <br> <input id="bun"> Дата рождения</input>
-        <br> <input id="plc"> Место рождения</input>
-        <br> <input id="cit"> Гражданство</input>
-    </p>
-    <p>
-        <output id="outp" name="outp">Ваши данные</output>
-
-    </p>
-
-
-    <br>
-    <button id="butshow">SHOW DATA</button>
-    <button id="butfil">FIL DATA</button>
-    <button id="butclean">CLEAR DATA</button>
-    <br>
+    <form id='userform' align="center">
+        <label name="nam">Введите Имя</label>
+        <input type="text" name="nam" value="" placeholder="Name">
+        <br>
+        <label name="fam">Ваша Фамилия</label>
+        <input type="text" name="fam" value="" placeholder="Given Name">
+        <br>
+        <label name="gen">Ваш полля</label>
+        <input type="text" name="gen" value="" placeholder="Пол">
+        <br>
+        <label name="bun">Дата рождения</label>
+        <input type="text" name="bun" value="" placeholder="Дата рождения">
+        <br>
+        <label name="plc">Место рождения</label>
+        <input type="text" name="plc" value="" placeholder="Место рождения">
+        <br>
+        <label name="cit">Гражданство</label>
+        <input type="text" name="cit" value="" placeholder="Гражданство">
+        <br>
+        <br>
+        <input id="butshow" type="button" value="SHOW" /></input>
+        <input id="butful" type="button" value="FULL" /></input>
+        <input id="butclean" type="button" value="CLEAR" /></input>
+        <br>
+    </form>
     <!--  разобраться почему не работает запуск скрипта! 
     http://www.w3schools.com/jsref/prop_text_value.asp
     не могу взять значения из полля ввода
