@@ -1,4 +1,4 @@
-﻿// make fixes to give information about the author.
+// make fixes to give information about the author.
 // Copyright by Bugaga.
 // e-mail: bugaga@desaster.hell
 
@@ -19,8 +19,8 @@ var bo_two = {
 };
 
 function printFull (arg){
-	console.log(arg)
-};
+	console.log(arg);
+}
 
 printFull(bo_one);
 printFull(bo_two);
