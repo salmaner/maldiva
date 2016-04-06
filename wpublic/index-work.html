@@ -21,32 +21,38 @@
         <br>с добавлением их локальную базу данных " GOROJANE "!
         <br>
     </p>
-    <form id='userform' align="center">
-        <label name="nam">Введите Имя</label>
-        <input type="text" name="nam" value="" placeholder="Name">
+    <form id='userform' align="left">
+        <!--<label name="nam">Введите Имя</label> для истории-->
+        Введите имя: 
+        <input type="text" id="nam" value="" placeholder="Name">
         <br>
-        <label name="fam">Ваша Фамилия</label>
-        <input type="text" name="fam" value="" placeholder="Given Name">
+        Введите фам:
+        <input type="text" id="fam" value="" placeholder="Given Name">
         <br>
-        <label name="gen">Ваш полля</label>
-        <input type="text" name="gen" value="" placeholder="Пол">
+        Ваша пол.пр:
+        <input type="text" id="gen" value="" placeholder="Пол">
         <br>
-        <label name="bun">Дата рождения</label>
-        <input type="text" name="bun" value="" placeholder="Дата рождения">
+        Дата рожден:
+        <input type="text" id="bun" value="" placeholder="Дата рождения">
         <br>
-        <label name="plc">Место рождения</label>
-        <input type="text" name="plc" value="" placeholder="Место рождения">
+        Место рождн:
+        <input type="text" id="plc" value="" placeholder="Место рождения">
         <br>
-        <label name="cit">Гражданство</label>
-        <input type="text" name="cit" value="" placeholder="Гражданство">
+        Гражданство:
+        <input type="text" id="cit" value="" placeholder="Гражданство">
         <br>
-        <br>
-        <input id="butshow" type="button" value="SHOW" /></input>
-        <input id="butful" type="button" value="FULL" /></input>
-        <input id="butclean" type="button" value="CLEAR" /></input>
-        <br>
+
     </form>
-    <!--  разобраться почему не работает запуск скрипта! 
+    <br>
+    <input id="butshow"  type="button" value="Shw name" /></input>
+    <input id="butful"   type="button" value="Full Show" /></input>
+    <input id="butclean" type="button" value="Clear" /></input>
+    <input id="butadd" type="button" value="Add Tab" /></input>
+    <input id="buttab" type="button" value="Show Tab" /></input>
+    <br>
+    <p id="demo"></p>
+
+    <!--  разобраться почему не работает запуск скрипта!
     http://www.w3schools.com/jsref/prop_text_value.asp
     не могу взять значения из полля ввода
     -->

@@ -1,7 +1,7 @@
+// ----------------------- declare variables --------------
 var gl_name = '';
-var ktoto = {};
-var s_data = {
-    givenName: '',
+var s_data = {     // объявляю объект который содержит поля
+    givenName: '', // и две функции
     firstName: '',
     gender: '',
     dataB: '',
@@ -19,7 +19,13 @@ var s_data = {
         return this.firstName + ' ' + this.givenName;
     }
 };
+var ktoto = s_data;
+var tabPersons = [];
 
+
+// ------------------- end of data ----------------------
+
+// ------------------------- declare functions -----------
 // отображение заполненных данных
 function ShowObject(ob) {
     var names = "";
@@ -29,39 +35,59 @@ function ShowObject(ob) {
     // return Object.keys(ob);
 }
 
-// alert('Для просмотра доп сообщений запустите консоль.');
-console.log('[LOG: is finished!]');
-
-window.onload = InitDo;
-
 function GoFill() {
     var Userform = document.getElementById("userform");
-    s_data.Fillup(Userform.nam.value,
-        Userform.fam.value,
-        Userform.gen.value,
-        Userform.bun.value,
-        Userform.plc.value,
-        Userform.cit.value
+        ktoto.Fillup(Userform.nam.value,
+             Userform.fam.value,
+             Userform.gen.value,
+             Userform.bun.value,
+             Userform.plc.value,
+             Userform.cit.value
     );
+    
 }
 
-function Bshow() {
+function Bshow() { // show the name and sername fo form
     GoFill();
-    alert('Вас зовут: ' + s_data.Fullname());
+    alert('Вас зовут: ' + ktoto.Fullname());
 }
 
-function Bfull() {
+function Bfull() { // show the all data of object names
     GoFill();
     gl_name = ShowObject(s_data);
     alert('Значение: ' + gl_name);
 }
 
-function InitDo() {
+function Bclear() { // clear hole form
+    var Uform = document.getElementById("userform");
+    Uform.reset();
+} //     Uform.nam.value = ''; так тоже работает но через id
 
-    var ButonSh = document.getElementById('userform');
-    ButonSh.butshow.onclick = Bshow;
-
-    var ButonFil = document.getElementById('userform');
-    ButonFil.butful.onclick = Bfull;
-
+function BshowTab () {  // !!!!!!!! TO DO   вывести элементы массива как текст
+    if (tabPersons.length == 3 ){
+         document.getElementById("demo").innerHTML = tabPersons[0].Fullname();
+         document.getElementById("demo").innerHTML = tabPersons[1].Fullname();
+         document.getElementById("demo").innerHTML = tabPersons[2].Fullname();
+    } else {
+         alert('Нужно три записи');
+    }
 }
+
+function BaddTab () {
+    GoFill();
+    tabPersons.push(ktoto);
+    alert(tabPersons.length);
+}
+
+
+function InitDo() { // catch the aciton of bunntons 
+// если в событие передать имя функции с () то она выполниться сразу
+// что бы она вызывалась только по нажатию надо скобки убирать.
+    document.getElementById('butshow').onclick = Bshow;
+    document.getElementById('butful').onclick = Bfull;
+    document.getElementById('butclean').onclick = Bclear;
+    document.getElementById('buttab').onclick = BshowTab;
+    document.getElementById('butadd').onclick = BaddTab
+}
+// ------- finish load the html page -------
+window.onload = InitDo;
