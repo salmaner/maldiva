@@ -44,7 +44,7 @@ function GoFill() {
              Userform.plc.value,
              Userform.cit.value
     );
-    
+
 }
 
 function Bshow() { // show the name and sername fo form
@@ -79,15 +79,22 @@ function BaddTab () {
     alert(tabPersons.length);
 }
 
-
-function InitDo() { // catch the aciton of bunntons 
+function InitDo() { // catch the aciton of bunntons
 // если в событие передать имя функции с () то она выполниться сразу
 // что бы она вызывалась только по нажатию надо скобки убирать.
     document.getElementById('butshow').onclick = Bshow;
     document.getElementById('butful').onclick = Bfull;
     document.getElementById('butclean').onclick = Bclear;
     document.getElementById('buttab').onclick = BshowTab;
-    document.getElementById('butadd').onclick = BaddTab
+    document.getElementById('butadd').onclick = BaddTab;
 }
 // ------- finish load the html page -------
 window.onload = InitDo;
+
+
+
+
+
+
+
+// end of file

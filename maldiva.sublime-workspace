@@ -1,0 +1,733 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"cal",
+				"callback"
+			],
+			[
+				"ind",
+				"indx"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"$",
+				"$controller	AngularJS"
+			],
+			[
+				"ng",
+				"ngModel"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"lab",
+				"label	Tag"
+			],
+			[
+				"sho",
+				"show_but"
+			],
+			[
+				"git",
+				"gitk"
+			],
+			[
+				"scr",
+				"source	Tag"
+			],
+			[
+				"li",
+				"listOfHosts"
+			],
+			[
+				"pr",
+				"prepareLength"
+			],
+			[
+				"do",
+				"doUs"
+			],
+			[
+				"mai",
+				"main2"
+			],
+			[
+				"ma",
+				"main1"
+			],
+			[
+				"mod",
+				"modules"
+			],
+			[
+				"per",
+				"personPrototype〔variable〕"
+			],
+			[
+				"this",
+				"this〔keyword〕"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"cons",
+				"const〔keyword〕"
+			],
+			[
+				"thi",
+				"this〔keyword〕"
+			],
+			[
+				"val",
+				"validate〔function〕"
+			],
+			[
+				"in",
+				"infinity"
+			],
+			[
+				"ty",
+				"typeof"
+			],
+			[
+				"typ",
+				"typeof〔keyword〕"
+			],
+			[
+				"get",
+				"getElementById〔function〕"
+			],
+			[
+				"getEl",
+				"getElementsByTagName〔function〕"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"innerH",
+				"innerHTML"
+			],
+			[
+				"outer",
+				"outerHTML"
+			],
+			[
+				"inn",
+				"innerHTML"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"co",
+				"code"
+			],
+			[
+				"code",
+				"code9"
+			],
+			[
+				"ne",
+				"newcar"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "wscripts/scrip001.js",
+			"settings":
+			{
+				"buffer_size": 2724,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wpublic/index-work.html",
+			"settings":
+			{
+				"buffer_size": 1792,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Python3.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Haskell/Haskell.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Haskell_MyVersia.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Haskell/Haskell.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/JSHint/JSHint.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Node.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/JSLint/JSLint.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Node.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Node.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: $(this)"
+			],
+			[
+				"",
+				"Anaconda: Vagrant Up"
+			],
+			[
+				"tasks",
+				"Tasks: New document"
+			],
+			[
+				"Anguls",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"git g",
+				"Git: Gitk"
+			],
+			[
+				"git: ",
+				"Git: Show Tags"
+			],
+			[
+				"git: status",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"haslell",
+				"SublimeHaskell: Install"
+			],
+			[
+				"jshint",
+				"JSHint"
+			]
+		],
+		"width": 704.0
+	},
+	"console":
+	{
+		"height": 356.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/rykov/git_projects/maldiva"
+	],
+	"file_history":
+	[
+		"/C/Users/rykov/git_projects/maldiva/maldiva.sublime-project",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/D/SERG/Dropbox/AddOnProject/tesst.htm",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/JSLint.sublime-settings",
+		"/D/SERG/Dropbox/AddOnProject/AddOnProject.sublime-project",
+		"/C/Users/rykov/Desktop/SublimeCodeIntel.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/SERG/Dropbox/AddOnProject/what-to-do_me.todo",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/D/SERG/Dropbox/AddOnProject/TO DO .txt",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/PlainTasks.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/PlainTasks (Windows).sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-completions.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-js-completions.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/rykov/git_projects/maldiva/wscripts/scrip001.js",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/rykov/Desktop/tesst.js",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/C/Users/rykov/git_projects/maldiva/wpublic/index-work.html",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/rykov/git_projects/maldiva/w_scripts/scrip-01.js",
+		"/C/Users/rykov/git_projects/maldiva/w_public/index-work.html",
+		"/C/Users/rykov/git_projects/maldiva/h_public/index_home.html",
+		"/C/Users/rykov/git_projects/maldiva/lastreading.txt",
+		"/C/Users/rykov/git_projects/maldiva/README",
+		"/D/SERG/Dropbox/Programming/expressWeb/first-app/app.js",
+		"/D/SERG/Dropbox/Programming/expressWeb/first-app/public/index.html",
+		"/D/SERG/Dropbox/Programming/expressWeb/first-app/test_added_file.txt",
+		"/D/virdisk/win_fold/studyLinux/an10/FuncHigh.hs",
+		"/D/virdisk/win_fold/studyLinux/an10/HiHask.hs",
+		"/D/virdisk/win_fold/studyLinux/an10/IOdoing.hs",
+		"/D/virdisk/win_fold/studyLinux/an10/Lists.hs",
+		"/D/virdisk/win_fold/studyLinux/an10/main.hs",
+		"/D/virdisk/win_fold/studyLinux/an10/Transform.hs",
+		"/D/virdisk/win_fold/studyLinux/an10/DataTypes.hs",
+		"/D/virdisk/win_fold/studyLinux/an20/oblastVidim.hs",
+		"/D/virdisk/win_fold/studyLinux/an20/Nat.hs",
+		"/D/virdisk/win_fold/studyLinux/an20/EmptyEmpty.hs",
+		"/D/virdisk/win_fold/studyLinux/an20/Sub/Empty.hs",
+		"/D/virdisk/win_fold/studyLinux/an20/Empty.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/HiHask.hs",
+		"/C/Users/rykov/Desktop/my letter about a fraud.txt",
+		"/D/SERG/Dropbox/StudyEnglish/prepare to IELTS/essay/Charlie Sheen.txt",
+		"/D/SERG/Dropbox/Programming/Haskell/DataTypes.hs",
+		"/D/SERG/Dropbox/StudyEnglish/prepare to IELTS/essay/Emotions.txt",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/studyLinux/an20/oblastVidim.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/studyLinux/an20/Nat.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/IOdoing.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/FuncHigh.hs",
+		"/C/Users/rykov/.leksah-0.15/_MyStudy/work01/src/Main.hs",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/AlignTab.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/D/SERG/Dropbox/Programming/Haskell/main — копия.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/Lists.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/real/real.cabal",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/real/app/Main.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/real/src/Lib.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/workspace/hellyou/src/Main.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/Real/app/Main.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/Real/src/Lib.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/Real/Real.cabal",
+		"/C/Users/rykov/AppData/Roaming/stack/indices/Hackage/packages/tuple/0.3.0.2/tuple-0.3.0.2/tuple-0.3.0.2/Setup.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/main.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/FuncHigh/app/Main.hs",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/Colorcoder/colorcoder.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/colorcoder.sublime-settings",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/HiHask.hs",
+		"/C/Users/rykov/Downloads/HatMake.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/FuncHigh/app/HatMake.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/FuncHigh.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/FuncHigh/src/Lib.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/FuncHigh/Setup.hs",
+		"/C/Users/rykov/AppData/Roaming/stack/indices/Hackage/packages/hat/2.9.0.0/hat-2.9.0.0/Setup.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/easyHaskell/    Invalid type signature",
+		"/D/SERG/Dropbox/Programming/NodeJS/sorax/sorax.js",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Haskell_MyVersia.sublime-build",
+		"/D/SERG/Dropbox/Programming/Haskell/manyProj/humanHaskell/Real/src/Lib.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/manyProj/humanHaskell/Real/app/Main.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/hiHask.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/hi-hask.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/hi_haskell.hs",
+		"/D/SERG/Dropbox/Programming/Haskell/manyProj/humanHaskell/Real/Real.cabal",
+		"/D/SERG/Dropbox/Programming/NodeJS/sorax/sorax.html",
+		"/D/SERG/Dropbox/Reading/programming/Haskell/ohaskell-master/Setup.hs",
+		"/D/SERG/Dropbox/Programming/NodeJS/FrimRobsonProject/chapter8/decorators.js",
+		"/D/VideoLearn copy/JavaScript Совр.Учебник/nodejs-screencast-master/fs-1-fs/test",
+		"/D/VideoLearn copy/JavaScript Совр.Учебник/nodejs-screencast-master/fs-1-fs/index.html",
+		"/D/SERG/Dropbox/Programming/NodeJS/FrimRobsonProject/chapter8/battleship.html",
+		"/D/SERG/Dropbox/Programming/NodeJS/FrimRobsonProject/chapter8/battleship_tester.html",
+		"/D/prog/eclipseHaskell/_MyProjects/haskell001/hi-hask/.dist-buildwrapper/src/Main.hs",
+		"/D/prog/eclipseHaskell/_MyProjects/haskell001/hi-hask/src/Main.hs",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/SublimeHaskell.sublime-settings",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/MY_Haskell.sublime-build",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/SublimeHaskell/Keymaps/Default.sublime-keymap",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Node.sublime-build",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Haskel_hdtolls.sublime-build",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/haskell_cabal_test.sublime-build",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Hdevtools_Haskell.sublime-build",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Cabal.sublime-build",
+		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/SublimeHaskell/Settings/SublimeHaskell.sublime-settings",
+		"/D/SERG/Dropbox/Programming/NodeJS/ninja01.html",
+		"/D/SERG/Dropbox/Programming/NodeJS/ninja01.js",
+		"/D/SERG/Dropbox/Programming/NodeJS/ninja01_01.js",
+		"/D/SERG/Dropbox/Programming/NodeJS/planet.html",
+		"/D/SERG/Dropbox/Programming/NodeJS/planet.js",
+		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/5. Prototypes_ Part 2/myscript.js",
+		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/5. Prototypes_ Part 2/index.html",
+		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/4. Prototypes_ Part 1/index.html",
+		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/4. Prototypes_ Part 1/myscript.js",
+		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/3. Call and Apply/index.html",
+		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/3. Call and Apply/myscript.js",
+		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/1. Basic Objects/index.html",
+		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/1. Basic Objects/myscript.js",
+		"/D/SERG/Dropbox/Programming/NodeJS/hi_function01.js",
+		"/D/SERG/Dropbox/Programming/NodeJS/hi_function.js"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" \")",
+			"main",
+			"infoWithLogin",
+			"infoWithPassword",
+			"infoWithAvatarURL",
+			"allInfoAboutUser",
+			"AvatrIN",
+			"PasswIN",
+			"LoginIN",
+			"storeAvatarURLIn",
+			"storePasswordIn",
+			"storeLoginIn",
+			"\\",
+			"}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"infoLogin",
+			"infoPassword",
+			"infoAvatarURL",
+			"allAboutUser",
+			"avatrIN",
+			"passwIN",
+			"loginIN",
+			"AvatrIN",
+			"PasswIN",
+			"LoginIN",
+			"/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wscripts/scrip001.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wpublic/index-work.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 191.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 154.0
+	},
+	"output.haskell_error_checker":
+	{
+		"height": 319.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 732.0
+	},
+	"output.tooltips":
+	{
+		"height": 142.0
+	},
+	"pinned_build_system": "",
+	"project": "maldiva.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\SERG\\Dropbox\\AddOnProject\\AddOnProject.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
