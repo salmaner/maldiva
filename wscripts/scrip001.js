@@ -1,23 +1,22 @@
 ;'use strict';
 (function() {
     // ------------------------------------ declare variables -
-    var makeRecords = function (nam, fam, cit) {
-        var s_data = {
-            givenName: nam,
-            firstName: fam,
-            citizen: cit,
-            Fullname: function () {
-                var totext = '';
-                totext += "Фио и страна: " +
-                this.firstName + " " + this.givenName +
-                ". Проживает в " + this.citizen;
-                return totext;
-            }
-        };
-        return s_data;
+    // конструктор записи туриста через функц. выражение.
+    var RecordsToutist = function (patrP) {
+        this.givenName = patrP.givenName;
+        this.firstName = patrP.firstName;
+        this.citizen   = patrP.citizen;
     };
+    // в его прототип пишем все методы, что бы они не плодились с объектами
+    RecordsToutist.prototype.Fullname = function () {
+        var totext = '';
+        totext += "Фио и страна: " + this.firstName + " " +
+            this.givenName + ". Проживает в " + this.citizen;
+        return totext;
+    };
+
     var gl_name = '';
-    var somePer = {};
+    var somePer;
     var tabPersons = [];
     var Doc = window.document;
     var kolr = Doc.getElementById('kolrecords');
@@ -40,18 +39,21 @@
                 } else if (i === "citizen") {
                     names += "Страна: " + ob[i] + ".<br>";
                 }
-            }   
+            }
+            console.log(Object.keys(ob));   
         }
         return names;
-        console.log(Object.keys(ob));
     }
 
     function GoFill() { // заполнение объекта данными с полей
         var Userform = Doc.getElementById("userform");
-        somePer = makeRecords(
-            Userform.nam.value,
-            Userform.fam.value,
-            Userform.cit.value);
+        var paternPerson = { // заполнил объект данными
+                givenName : Userform.nam.value,
+                firstName : Userform.fam.value,
+                citizen   : Userform.cit.value,
+            };
+        // создал объект и передал в кач.параметра объект с данными.
+        somePer = new RecordsToutist(paternPerson);
 
     }
 
@@ -111,3 +113,28 @@
 })();
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - end of file
+
+
+
+// // пример того, как можно создавать объекты с методами
+// // и на основе одного объекта создавть другие, типа конструкторы.
+// // но это не лучший вариант, осталяю его тут для истории.
+// var makeRecords = function (nam, fam, cit) {
+//         var s_data = {
+//             givenName: nam,
+//             firstName: fam,
+//             citizen: cit,
+//             Fullname: function () {
+//                 var totext = '';
+//                 totext += "Фио и страна: " +
+//                 this.firstName + " " + this.givenName +
+//                 ". Проживает в " + this.citizen;
+//                 return totext;
+//             }
+//         };
+//         return s_data;
+//     };
+// somePer = makeRecords(
+//             Userform.nam.value,
+//             Userform.fam.value,
+//             Userform.cit.value);

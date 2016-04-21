@@ -187,7 +187,7 @@
 			"file": "wscripts/scrip001.js",
 			"settings":
 			{
-				"buffer_size": 3522,
+				"buffer_size": 4634,
 				"line_ending": "Windows"
 			}
 		}
@@ -409,12 +409,13 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Sergey/git_projects/maldiva",
-		"/C/Users/Sergey/git_projects/maldiva/wpublic",
-		"/C/Users/Sergey/git_projects/maldiva/wscripts"
+		"/C/Users/rykov/git_projects/maldiva",
+		"/C/Users/rykov/git_projects/maldiva/wpublic",
+		"/C/Users/rykov/git_projects/maldiva/wscripts"
 	],
 	"file_history":
 	[
+		"/C/Users/rykov/git_projects/maldiva/wpublic/index-work.html",
 		"/C/Users/Sergey/git_projects/maldiva/wpublic/index-work.html",
 		"/C/PortProg/SublimeText3/Data/Packages/User/Chrome.sublime-build",
 		"/C/PortProg/SublimeText3/Data/Packages/PlainTasks/messages/Tutorial.todo",
@@ -447,7 +448,6 @@
 		"/C/Users/rykov/Desktop/tesst.js",
 		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
-		"/C/Users/rykov/git_projects/maldiva/wpublic/index-work.html",
 		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
 		"/C/Users/rykov/git_projects/maldiva/w_scripts/scrip-01.js",
 		"/C/Users/rykov/git_projects/maldiva/w_public/index-work.html",
@@ -626,15 +626,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3522,
+						"buffer_size": 4634,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								346,
-								346
+								3184,
+								3185
 							]
 						],
 						"settings":
@@ -755,7 +755,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 226.0,
 	"status_bar_visible": true,
 	"template_settings":
