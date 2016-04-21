@@ -1,100 +1,113 @@
-// ----------------------- declare variables --------------
-var gl_name = '';
-var s_data = {     // объявляю объект который содержит поля
-    givenName: '', // и две функции
-    firstName: '',
-    gender: '',
-    dataB: '',
-    placeB: '',
-    citizen: '',
-    Fillup: function(a, b, c, d, e, h) {
-        this.givenName = a;
-        this.firstName = b;
-        this.gender = c;
-        this.dataB = d;
-        this.placeB = e;
-        this.citizen = h;
-    },
-    Fullname: function() {
-        return this.firstName + ' ' + this.givenName;
+;'use strict';
+(function() {
+    // ------------------------------------ declare variables -
+    var makeRecords = function (nam, fam, cit) {
+        var s_data = {
+            givenName: nam,
+            firstName: fam,
+            citizen: cit,
+            Fullname: function () {
+                var totext = '';
+                totext += "Фио и страна: " +
+                this.firstName + " " + this.givenName +
+                ". Проживает в " + this.citizen;
+                return totext;
+            }
+        };
+        return s_data;
+    };
+    var gl_name = '';
+    var somePer = {};
+    var tabPersons = [];
+    var Doc = window.document;
+    var kolr = Doc.getElementById('kolrecords');
+    var rightDemo = Doc.getElementById('rightdemo');
+    var toClearDemo = Doc.getElementById('demo');
+    var Uform = Doc.getElementById("userform");
+
+    // ------------------- end of data ----------------------
+    
+    // ----------------------------------- declare functions -
+    // отображение заполненных объекта данных
+    function ShowObject(ob) {
+        var names = "Текущая запись туриста:<br>"; var i = 0;
+        for (i in ob) {
+            if (i != "Fullname") {
+                if (i === "givenName") {
+                    names += "Ваше Имя: " + ob[i] + ",<br>";
+                } else if (i === "firstName") {
+                    names += "Фамилия: " + ob[i] + ",<br>";
+                } else if (i === "citizen") {
+                    names += "Страна: " + ob[i] + ".<br>";
+                }
+            }   
+        }
+        return names;
+        console.log(Object.keys(ob));
     }
-};
-var ktoto = s_data;
-var tabPersons = [];
 
+    function GoFill() { // заполнение объекта данными с полей
+        var Userform = Doc.getElementById("userform");
+        somePer = makeRecords(
+            Userform.nam.value,
+            Userform.fam.value,
+            Userform.cit.value);
 
-// ------------------- end of data ----------------------
-
-// ------------------------- declare functions -----------
-// отображение заполненных данных
-function ShowObject(ob) {
-    var names = "";
-    for (var name in ob) names += ob[name] + "\n";
-    return names;
-    // console.log(Object.keys(ob));
-    // return Object.keys(ob);
-}
-
-function GoFill() {
-    var Userform = document.getElementById("userform");
-        ktoto.Fillup(Userform.nam.value,
-             Userform.fam.value,
-             Userform.gen.value,
-             Userform.bun.value,
-             Userform.plc.value,
-             Userform.cit.value
-    );
-
-}
-
-function Bshow() { // show the name and sername fo form
-    GoFill();
-    alert('Вас зовут: ' + ktoto.Fullname());
-}
-
-function Bfull() { // show the all data of object names
-    GoFill();
-    gl_name = ShowObject(s_data);
-    alert('Значение: ' + gl_name);
-}
-
-function Bclear() { // clear hole form
-    var Uform = document.getElementById("userform");
-    Uform.reset();
-} //     Uform.nam.value = ''; так тоже работает но через id
-
-function BshowTab () {  // !!!!!!!! TO DO   вывести элементы массива как текст
-    if (tabPersons.length == 3 ){
-         document.getElementById("demo").innerHTML = tabPersons[0].Fullname();
-         document.getElementById("demo").innerHTML = tabPersons[1].Fullname();
-         document.getElementById("demo").innerHTML = tabPersons[2].Fullname();
-    } else {
-         alert('Нужно три записи');
     }
-}
 
-function BaddTab () {
-    GoFill();
-    tabPersons.push(ktoto);
-    alert(tabPersons.length);
-}
+    function Bshow() { // - -  отображение фио объекта
+        GoFill();
+        alert('Вас зовут: ' + somePer.Fullname());
+    }
 
-function InitDo() { // catch the aciton of bunntons
-// если в событие передать имя функции с () то она выполниться сразу
-// что бы она вызывалась только по нажатию надо скобки убирать.
-    document.getElementById('butshow').onclick = Bshow;
-    document.getElementById('butful').onclick = Bfull;
-    document.getElementById('butclean').onclick = Bclear;
-    document.getElementById('buttab').onclick = BshowTab;
-    document.getElementById('butadd').onclick = BaddTab;
-}
-// ------- finish load the html page -------
-window.onload = InitDo;
+    function Bfull() { // - -  отображение всех полей объекта
+        GoFill();
+        gl_name = ShowObject(somePer);
+        // alert('Значение: ' + gl_name);
+        rightDemo.innerHTML = gl_name;
+    }
 
+    function BclearOut() { // - - - очистка всех полей
+        Uform.reset();
+        toClearDemo.innerHTML = "";
+        rightDemo.innerHTML = '';
+    } 
 
+    function BclearArr() {
+        toClearDemo.innerHTML = "";
+        rightDemo.innerHTML = '';
+        tabPersons = [];
+        kolr.innerHTML = tabPersons.length;
+        
 
+    }
 
+    function BshowTab() {// вывод эелементов масива в виде текста на html
+        var text_demo = "";
+        var elm;
+        tabPersons.forEach(function (elm)  {
+            text_demo = text_demo + elm.Fullname()+ "<br>";
+        });
+        Doc.getElementById("demo").innerHTML = text_demo;
+    }
 
+    function ButtAdd() {
+        GoFill();
+        tabPersons.push(somePer);
+        kolr.innerHTML = tabPersons.length;
+    }
 
+    function InitDo() { // catch the aciton of bunntons
+        // Doc.getElementById('butshow').onclick = Bshow;
+        Doc.getElementById('butful').onclick = Bfull;
+        Doc.getElementById('buttab').onclick = BshowTab;
+        
+        Doc.getElementById('butcle1').onclick = BclearOut;
+        Doc.getElementById('butcle2').onclick = BclearArr;
+        Doc.getElementById('butadd').onclick = ButtAdd;
+    }
+    window.onload = InitDo;// ---- finish load the html page ----
 
-// end of file
+})();
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - end of file

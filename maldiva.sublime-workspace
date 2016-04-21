@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"Bclear",
+				"BclearArr"
+			],
+			[
+				"butcl",
+				"butcle2"
+			],
+			[
+				"rese",
+				"reset"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"te",
+				"text_demo"
+			],
+			[
+				"src",
+				"source	Tag"
+			],
+			[
+				"firs",
+				"firstName"
+			],
+			[
 				"cl",
 				"cl	console.log"
 			],
@@ -159,20 +187,12 @@
 			"file": "wscripts/scrip001.js",
 			"settings":
 			{
-				"buffer_size": 2724,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wpublic/index-work.html",
-			"settings":
-			{
-				"buffer_size": 1792,
+				"buffer_size": 3522,
 				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/User/NodeMy.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -266,6 +286,26 @@
 		[
 			[
 				[
+					"Packages/JSLint/JSLint.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/NodeMy.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/NodeMy.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
 					"Packages/Python/Python.sublime-build",
 					""
 				],
@@ -283,10 +323,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 490.0,
-		"last_filter": "Package Control: ",
+		"height": 434.0,
+		"last_filter": "tas",
 		"selected_items":
 		[
+			[
+				"tas",
+				"Tasks: New document"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -344,7 +388,7 @@
 				"JSHint"
 			]
 		],
-		"width": 704.0
+		"width": 539.0
 	},
 	"console":
 	{
@@ -365,10 +409,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/rykov/git_projects/maldiva"
+		"/C/Users/Sergey/git_projects/maldiva",
+		"/C/Users/Sergey/git_projects/maldiva/wpublic",
+		"/C/Users/Sergey/git_projects/maldiva/wscripts"
 	],
 	"file_history":
 	[
+		"/C/Users/Sergey/git_projects/maldiva/wpublic/index-work.html",
+		"/C/PortProg/SublimeText3/Data/Packages/User/Chrome.sublime-build",
+		"/C/PortProg/SublimeText3/Data/Packages/PlainTasks/messages/Tutorial.todo",
+		"/C/Users/Sergey/git_projects/maldiva/maldiva.todo",
+		"/C/PortProg/SublimeText3/Data/Packages/User/Base File.sublime-settings",
 		"/C/Users/rykov/git_projects/maldiva/maldiva.sublime-project",
 		"/C/Users/rykov/AppData/Roaming/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
 		"/D/SERG/Dropbox/AddOnProject/tesst.htm",
@@ -491,16 +542,11 @@
 		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/5. Prototypes_ Part 2/index.html",
 		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/4. Prototypes_ Part 1/index.html",
 		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/4. Prototypes_ Part 1/myscript.js",
-		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/3. Call and Apply/index.html",
-		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/3. Call and Apply/myscript.js",
-		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/1. Basic Objects/index.html",
-		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/1. Basic Objects/myscript.js",
-		"/D/SERG/Dropbox/Programming/NodeJS/hi_function01.js",
-		"/D/SERG/Dropbox/Programming/NodeJS/hi_function.js"
+		"/D/VideoLearn copy/JavaScript Телекон/JavaScript Foundations/6. Objects/3. Call and Apply/index.html"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -514,6 +560,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h4",
+			"h1",
+			"h2",
+			"Bclear",
+			"ButnTab",
+			"doc",
+			"document",
+			"BaddTab",
+			"ktoto",
 			" \")",
 			"main",
 			"infoWithLogin",
@@ -535,6 +590,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"BclearOut",
+			"ButtAdd",
+			"Doc",
+			"doc",
+			"ButnTab",
+			"somePer",
 			"infoLogin",
 			"infoPassword",
 			"infoAvatarURL",
@@ -565,19 +626,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2724,
+						"buffer_size": 3522,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								325,
-								325
+								346,
+								346
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"colorcode": true,
 							"encoding_helper_encoding": "UTF-8",
 							"encoding_thread_running": true,
@@ -589,44 +651,13 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "wpublic/index-work.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1792,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_thread_running": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -657,7 +688,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 191.0
+		"height": 136.0
 	},
 	"output.find_results":
 	{
@@ -683,7 +714,7 @@
 	"project": "maldiva.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -724,8 +755,8 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 299.0,
+	"side_bar_visible": false,
+	"side_bar_width": 226.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
