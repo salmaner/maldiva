@@ -8,7 +8,7 @@
         this.citizen   = patrP.citizen;
     };
     // в его прототип пишем все методы, что бы они не плодились с объектами
-    RecordsToutist.prototype.Fullname = function () {
+    RecordsToutist.prototype.writRecordToRow = function () {
         var totext = '';
         totext += "Фио и страна: " + this.firstName + " " +
             this.givenName + ". Проживает в " + this.citizen;
@@ -28,10 +28,10 @@
     
     // ----------------------------------- declare functions -
     // отображение заполненных объекта данных
-    function ShowObject(ob) {
+    function show_Object(ob) {
         var names = "Текущая запись туриста:<br>"; var i = 0;
         for (i in ob) {
-            if (i != "Fullname") {
+            if (i != "writRecordToRow") {
                 if (i === "givenName") {
                     names += "Ваше Имя: " + ob[i] + ",<br>";
                 } else if (i === "firstName") {
@@ -45,7 +45,7 @@
         return names;
     }
 
-    function GoFill() { // заполнение объекта данными с полей
+    function go_Fill_Fild() { // заполнение объекта данными с полей
         var Userform = Doc.getElementById("userform");
         var paternPerson = { // заполнил объект данными
                 givenName : Userform.nam.value,
@@ -57,25 +57,25 @@
 
     }
 
-    function Bshow() { // - -  отображение фио объекта
-        GoFill();
-        alert('Вас зовут: ' + somePer.Fullname());
+    function but_Show_FIO() { // - -  отображение фио объекта
+        go_Fill_Fild();
+        alert('Вас зовут: ' + somePer.writRecordToRow());
     }
 
-    function Bfull() { // - -  отображение всех полей объекта
-        GoFill();
-        gl_name = ShowObject(somePer);
+    function but_Show_FIO_Filds() { // - -  отображение всех полей объекта
+        go_Fill_Fild();
+        gl_name = show_Object(somePer);
         // alert('Значение: ' + gl_name);
         rightDemo.innerHTML = gl_name;
     }
 
-    function BclearOut() { // - - - очистка всех полей
+    function but_Clear_Filds() { // - - - очистка всех полей
         Uform.reset();
         toClearDemo.innerHTML = "";
         rightDemo.innerHTML = '';
     } 
 
-    function BclearArr() {
+    function but_Clear_Array() {
         toClearDemo.innerHTML = "";
         rightDemo.innerHTML = '';
         tabPersons = [];
@@ -84,31 +84,31 @@
 
     }
 
-    function BshowTab() {// вывод эелементов масива в виде текста на html
+    function but_Show_FIO_Tab() {// вывод эелементов масива в виде текста на html
         var text_demo = "";
         var elm;
         tabPersons.forEach(function (elm)  {
-            text_demo = text_demo + elm.Fullname()+ "<br>";
+            text_demo = text_demo + elm.writRecordToRow()+ "<br>";
         });
         Doc.getElementById("demo").innerHTML = text_demo;
     }
 
-    function ButtAdd() {
-        GoFill();
+    function but_Add_Rec_to_array() {
+        go_Fill_Fild();
         tabPersons.push(somePer);
         kolr.innerHTML = tabPersons.length;
     }
 
-    function InitDo() { // catch the aciton of bunntons
-        // Doc.getElementById('butshow').onclick = Bshow;
-        Doc.getElementById('butful').onclick = Bfull;
-        Doc.getElementById('buttab').onclick = BshowTab;
+    function init_Load() { // catch the aciton of bunntons
+        // Doc.getElementById('butshow').onclick = but_Show_FIO;
+        Doc.getElementById('butful').onclick = but_Show_FIO_Filds;
+        Doc.getElementById('buttab').onclick = but_Show_FIO_Tab;
         
-        Doc.getElementById('butcle1').onclick = BclearOut;
-        Doc.getElementById('butcle2').onclick = BclearArr;
-        Doc.getElementById('butadd').onclick = ButtAdd;
+        Doc.getElementById('butcle1').onclick = but_Clear_Filds;
+        Doc.getElementById('butcle2').onclick = but_Clear_Array;
+        Doc.getElementById('butadd').onclick = but_Add_Rec_to_array;
     }
-    window.onload = InitDo;// ---- finish load the html page ----
+    window.onload = init_Load;// ---- finish load the html page ----
 
 })();
 
@@ -118,13 +118,13 @@
 
 // // пример того, как можно создавать объекты с методами
 // // и на основе одного объекта создавть другие, типа конструкторы.
-// // но это не лучший вариант, осталяю его тут для истории.
+// // но это не лучший вариант, остваляю его тут для истории.
 // var makeRecords = function (nam, fam, cit) {
 //         var s_data = {
 //             givenName: nam,
 //             firstName: fam,
 //             citizen: cit,
-//             Fullname: function () {
+//             writRecordToRow: function () {
 //                 var totext = '';
 //                 totext += "Фио и страна: " +
 //                 this.firstName + " " + this.givenName +
