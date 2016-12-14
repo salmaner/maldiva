@@ -1,5 +1,5 @@
-;'use strict';
-(function() {
+;(function() {
+    'use strict';
     // ------------------------------------ declare variables -
     // конструктор записи туриста через функц. выражение.
     var RecordsToutist = function (patrP) {
